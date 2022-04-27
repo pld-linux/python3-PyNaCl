@@ -9,6 +9,7 @@
 Summary:	Python 2 binding to the Networking and Cryptography (NaCl) library
 Summary(pl.UTF-8):	Wiązania Pythona 2 do biblioteki NaCl (Networking and Cryptography)
 Name:		python-%{module}
+# keep 1.4.x here for python2 support
 Version:	1.4.0
 Release:	6
 License:	Apache v2.0
