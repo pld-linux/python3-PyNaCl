@@ -25,6 +25,7 @@ BuildRequires:	python3-setuptools
 BuildRequires:	python3-hypothesis >= 3.27.0
 BuildRequires:	python3-pytest >= 3.3.1
 %endif
+BuildRequires:	rpm-build >= 4.6
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
 %if %{with doc}
@@ -46,6 +47,7 @@ NaCl (Networking and Cryptography).
 Summary:	API documentation for PyNaCl module
 Summary(pl.UTF-8):	Dokumentacja API modułu PyNaCl
 Group:		Documentation
+BuildArch:	noarch
 
 %description apidocs
 API documentation for PyNaCl module.
