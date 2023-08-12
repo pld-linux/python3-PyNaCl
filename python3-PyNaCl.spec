@@ -13,7 +13,7 @@ License:	Apache v2.0
 Group:		Libraries/Python
 Source0:	https://github.com/pyca/pynacl/archive/%{version}/pynacl-%{version}.tar.gz
 # Source0-md5:	5f4332422b2be24fb1584eb447061b30
-URL:		https://github.com/dstufft/pynacl/
+URL:		https://github.com/pyca/pynacl/
 BuildRequires:	libsodium-devel >= 1.0.18
 BuildRequires:	python3-cffi >= 1.4.1
 BuildRequires:	python3-devel >= 1:3.6
