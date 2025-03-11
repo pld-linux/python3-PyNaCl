@@ -8,7 +8,7 @@ Summary:	Python 2 binding to the Networking and Cryptography (NaCl) library
 Summary(pl.UTF-8):	Wiązania Pythona 2 do biblioteki NaCl (Networking and Cryptography)
 Name:		python3-%{module}
 Version:	1.5.0
-Release:	2
+Release:	3
 License:	Apache v2.0
 Group:		Libraries/Python
 Source0:	https://github.com/pyca/pynacl/archive/%{version}/pynacl-%{version}.tar.gz
