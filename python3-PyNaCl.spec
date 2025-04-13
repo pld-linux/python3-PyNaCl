@@ -8,11 +8,12 @@ Summary:	Python 2 binding to the Networking and Cryptography (NaCl) library
 Summary(pl.UTF-8):	Wiązania Pythona 2 do biblioteki NaCl (Networking and Cryptography)
 Name:		python3-%{module}
 Version:	1.5.0
-Release:	3
+Release:	4
 License:	Apache v2.0
 Group:		Libraries/Python
 Source0:	https://github.com/pyca/pynacl/archive/%{version}/pynacl-%{version}.tar.gz
 # Source0-md5:	5f4332422b2be24fb1584eb447061b30
+Patch0:		sphinx.patch
 URL:		https://github.com/pyca/pynacl/
 BuildRequires:	libsodium-devel >= 1.0.18
 BuildRequires:	python3-cffi >= 1.4.1
@@ -55,6 +56,7 @@ Dokumentacja API modułu PyNaCl.
 
 %prep
 %setup -q -n pynacl-%{version}
+%patch -P0 -p1
 
 %build
 export SODIUM_INSTALL=system
